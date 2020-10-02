@@ -13,7 +13,7 @@
 }
 
 .legenda h6 {
-  color: #74489D;
+  color: #0074ae;
 }
 
 .hero .legenda {
@@ -31,11 +31,11 @@
 }
 
 .is-primary {
-  background-color: #74489D !important;
+  background-color: #0074ae !important;
 }
 
 .table tr.is-selected {
-  background-color: #74489D !important;
+  background-color: #0074ae !important;
   color: #fff;
 }
 
@@ -44,12 +44,12 @@
 }
 
 .hero .notification.is-warning {
-  background-color: #74489D !important;
+  background-color: #0074ae !important;
   color: #fff;
 }
 
 .is-primary .columns div {
-  background-color: #74489de8;
+  background-color: #0074aef0;
   color: #fff;
   padding: 2em;
 }
@@ -118,6 +118,26 @@ textarea {
 
 h6 span {
   word-break: break-all;
+}
+
+.card font {
+  color: red;
+}
+
+table td:not([align]), table th:not([align]) {
+  text-align: inherit;
+}
+
+.content table th:not([align]) {
+  text-align: inherit;
+}
+
+.table th:not([align]) {
+  text-align: inherit;
+}
+
+fmath.ma-block {
+  display: inline;
 }
 
 @media only screen and (min-width: 769px) {
