@@ -21,9 +21,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-10-desktop is-offset-1-desktop" data-aos="fade-up">
-            <h1 class="title is-size-1-tablet is-spaced is-uppercase">Funções</h1>
-            <p class="has-text-weight-light">As curvas estão presentes em diversas situações do nosso cotidiano. Nos exemplos acima, podemos observar de que maneira isso ocorre: a ponte da Baía de Sydney, na Austrália; a trajetória de uma bola de
-              futebol americano; uma antena parabólica; e um <i>show</i> com jatos de água.</p>
+            <h1 class="title is-size-1-tablet is-spaced is-uppercase">Ângulos na circunferência</h1>
           </div>
         </div>
       </div>
@@ -34,18 +32,15 @@
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <figure class="image wrapper">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-              <div class="legenda is-size-7 has-text-right">
-                <h6>Festa popular na ilha de Phuket, Tailândia, 2016</h6>
-              </div>
-            </figure>
+
             <div id="pagina-2"></div>
             <h3>Introdução</h3>
             <ol>
-              <li>A representação de certo tipo de curva está presente em todas essas imagens. Você sabe qual é?</li>
-              <li>Há curvas parecidas com as dessas imagens em locais da cidade onde você mora? Se sim, que locais são esses?</li>
+              <li>Na ginástica rítmica é possível perceber movimentos com elementos de dança combinados ao som de música e ao uso de aparelhos próprios dessa modalidade. Na imagem, você pode observar a atleta utilizando um desses aparelhos, que é
+                oarco. Você conhece outros aparelhos utilizados na ginástica rítmica?</li>
+              <li>Determine o comprimento da circunferência formada pelo arco, considerando um diâmetro aproximado de 85 cm. Use π = 3,14.</li>
             </ol>
+
           </div>
         </div>
       </div>
@@ -59,8 +54,8 @@
             <div class="tile px-0">
               <article class="notification is-primary" data-aos="fade-up">
                 <p class="title">Objetivos</p>
-                <p>Neste capítulo, você conhecerá as representações gráficas e algébricas da função afim e da função quadrática. Além disso, você utilizará esses conceitos para analisar situações e resolver problemas que envolvam esses dois tipos de
-                  funções.</p>
+                <p>Ao final do estudo deste capítulo, espera-se que você compreenda a relação entre ângulo central e ângulo inscrito e as relações métricas em uma circunferência por meio da análise de situações variadas e da resolução de problemas.
+                </p>
               </article>
             </div>
           </div>
@@ -73,1055 +68,218 @@
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <h2>Função afim</h2>
-            <h3>Representação algébrica</h3>
-            <p>Em muitas situações práticas, tentamos compreender fenômenos que envolvem a variação de uma ou mais
-              grandezas.</p>
-            <ul>
-              <li>Como a temperatura ambiente varia na sua cidade no verão? E no inverno?</li>
-              <li>Qual a sua velocidade média em uma corrida de 100 metros? E em uma corrida de 2 quilômetros?</li>
-              <li>Quanto de combustível um veículo consome andando na cidade? E na estrada?</li>
-              <li>Como se comporta o nível da água do mar ao longo do dia? E da noite?</li>
-            </ul>
-            <p>Você já estudou anteriormente que, para relacionarmos grandezas variáveis, como a temperatura e a velocidade, muitas vezes podemos fazer uso das funções.</p>
-            <p>Na Matemática, há alguns tipos conhecidos de funções, como é o caso da <strong>função afim</strong>. Observe um exemplo de aplicação da função afim.</p>
-            <p>Roberto trabalha como garçom em um restaurante. Por mês, ele recebe R$ 1.250,00 acrescidos da <strong>taxa de serviço</strong>, que equivale a 10% do valor total dos pedidos que atendeu durante o mês.</p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>A <strong style="color:#0074ae">taxa de serviço</strong> é um percentual do total consumido pelo cliente e que corresponde a uma gorjeta aos funcionários. Os estabelecimentos devem informar ao consumidor quanto à cobrança dessa taxa
-                e esclarecer que seu
-                pagamento é opcional.</p>
-            </div>
+            <h2>Arcos e ângulos na circunferência</h2>
+
+            <h3>Posições relativas entre uma reta e uma circunferência</h3>
+            <p>A obra <i>Composição VIII</i>, de Wassily Kandinsky, do ano de 1923, faz parte do movimento artístico conhecido como arte moderna e pode ser encontrada no Museu Solomon R. Guggenheim, na cidade de Nova Iorque.</p>
             <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
               <div class="legenda is-size-7 has-text-right">
-                <h6>Praia na ilha de Koh Phi Phi, Tailândia, 2018</h6>
+                <h6>KANDINSKY, Wassily. <i>Composição VIII</i>. 1923. 1 óleo sobre tela, color., 140 cm × 201 cm. Museu Solomon R. Guggenheim, Nova Iorque, EUA.</h6>
               </div>
             </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>A tabela ao lado apresenta os valores gastos pelos clientes que Roberto atendeu e que pagaram a taxa de serviço no respectivo mês. Quanto ele recebeu em cada um dos meses indicados? Preencha a tabela de acordo com os valores
-              encontrados.</p>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <table class="table table-bordered table-responsive-sm">
-              <tbody>
-                <tr class="has-text-centered is-selected">
-                  <th>
-                    <p>Mês</p>
-                  </th>
-                  <th>
-                    <p>Valor total dos pedidos</p>
-                  </th>
-                  <th>
-                    <p>Salário recebido por Roberto</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>Janeiro</td>
-                  <td>R$ 4.000,00</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>Fevereiro</td>
-                  <td>R$ 8.000,00</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>Março</td>
-                  <td>R$ 7.000,00</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>Abril</td>
-                  <td>R$ 7.500,00</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>A quantia <strong>y</strong> que Roberto recebe de salário em determinado mês depende do valor <strong>x</strong> gasto pelos clientes que pagaram a taxa de serviço. Nesse caso, dizemos que <strong>y</strong> é uma <strong>variável
-                dependente</strong>, enquanto <strong>x</strong> é uma <strong>variável independente</strong>.</p>
-            <p>Observe que y = 0,1x + 1 250 é a lei matemática que expressa o valor de <strong>y</strong> em função do valor de <strong>x</strong> e que essa regra pode ser representada pelo formato y = ax + b, onde <strong>a</strong> e
-              <strong>b</strong> são, respectivamente, os coeficientes 0,1 e 1 250.
-            </p>
-            <div class="notification is-warning has-text-centered" data-aos="fade-up">
-              <p>As funções com o formato y = ax + b são chamadas de <strong>função afim</strong> ou <strong>função polinomial do 1.º grau</strong>, sendo <strong>a</strong> e <strong>b</strong> números reais, com a ≠ 0.</p>
-            </div>
+            <p>a) Quais formas geométricas você observa nessa obra?</p>
+            <p>b) As formas geométricas dessa obra não foram inseridas de forma aleatória. Apesar dos traços abstratos, o artista procurou representar uma paisagem. Você consegue relacionar as formas geométricas com elementos paisagísticos?</p>
+            <p>c) A obra apresenta diversas circunferências e retas em posições variadas. Quais posições relativas entre esses elementos podem ser identificadas?</p>
+            <p>Ao analisar a obra <i>Composição VIII</i>, verificam-se diferentes posições relativas entre retas e circunferências. Vamos estudar cada uma delas e, para isso, será necessário usar, além do lápis, um compasso e uma régua. Considere o
+              plano cartesiano ao lado.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Construa, com um compasso, uma circunferência de centro O (–1, 1) e que passe pelo ponto A (–5, 1).</p>
+            <p>b) Encontre os pontos a seguir e, com uma régua, trace as retas que passam pelos pontos:</p>
             <ul>
-              <li>Qual foi o gasto dos clientes atendidos por Roberto e que pagaram a taxa de serviço em um mês que ele recebeu R$ 2.770,00?</li>
-              <li>Analise os salários encontrados na tabela da página anterior e responda: os valores de <strong>y</strong> são diretamente proporcionais aos valores de <strong>x</strong>? Justifique sua resposta.</li>
+              <li>B (3, –4) e C (–2, 4);</li>
+              <li>B (3, –4) e D (5, 1);</li>
+              <liu>B (3, –4) e E (3, 5).</liu>
             </ul>
-            <p>A lei matemática y = 0,1x + 1 250, que relaciona <strong>y</strong> em função do valor de <strong>x</strong>, pode ser escrita como f(x) = 1 250 + 0,1x. Nesse caso, usando y = f(x), ressaltamos o fato de que <strong>y</strong> depende
-              de <strong>x</strong>.</p>
-            <p>O valor de <strong>x</strong> dentro dos parênteses é apenas uma indicação da variável, não sendo utilizado nos cálculos. Observe, por exemplo, o cálculo de y = f(x) para x = R$ 1.000,00:</p>
-
-            <div class="card color--primary--bg color--primary--contrast has-text-centered my-5 py-5">
-              <div class="card-body">
-                <p>y = f(<font>x</font>) = 1 250 + 0,1<font>x</font>
-                </p>
-                <p>y = f(<font>1 000</font>) = 1 250 + 0,1 ⋅ <font>1 000</font>
-                </p>
-                <p>y = f(<font>1 000</font>) = 1 250 + 100</p>
-                <p>y = f(<font>1 000</font>) = 1 350</p>
-              </div>
-            </div>
-            <p>Portanto, quando os clientes que pagarem a taxa de serviço gastarem <span>R$</span> 1.000,00 em um mês, o salário de Roberto será igual a <span>R$</span> 1.350,00.</p>
-            <p>Agora, veja a situação a seguir.</p>
-            <p>No restaurante em que Roberto trabalha, um prato feito com arroz, feijão, batata frita, carne e salada custa R$ 12,50.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Preencha a tabela a seguir com o valor (y) arrecadado pelo restaurante com a venda das quantidades (x) indicadas de pratos comerciais.</p>
-            <table class="table table-bordered table-responsive-sm">
-              <tbody>
-                <tr class=" is-selected">
-                  <th>
-                    <p>Pratos comerciais vendidos (x)</p>
-                  </th>
-                  <th>
-                    <p>Valor arrecadado pelo restaurante (y)</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td class="has-text-centered">5</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td class="has-text-centered">8</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td class="has-text-centered">12</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td class="has-text-centered">16</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-              </tbody>
-            </table>
-            <p>Perceba que a lei matemática que relaciona o valor arrecadado pelo restaurante (y) com o número (x) de pratos comerciais vendidos é dada por y = 12,5 · x e que essa regra pode ser representada pelo formato y = ax + b, onde a = 12,5 e o
-              coeficiente <strong>b</strong> é nulo.</p>
-            <p>Sobre a lei matemática y = 12,5 · x, responda às questões.</p>
-            <ul>
-              <li>Qual é a variável dependente? Justifique sua resposta.</li>
-              <li>Os valores de <strong>y</strong> são diretamente proporcionais aos valores de <strong>x</strong>? Justifique sua resposta.</li>
-            </ul>
-            <div class="notification is-warning has-text-centered" data-aos="fade-up">
-              <p>Sejam <strong>a</strong> e <strong>b</strong> números reais. Se a função afim y = ax + b é tal que a ≠ 0 e b = 0, ou seja, y = ax, dizemos que essa função é uma <strong>função linear</strong>.</p>
-            </div>
-            <div class="notification is-primary has-text-centered" data-aos="fade-up">
-              <p>As grandezas <strong>x</strong> e <strong>y</strong> representadas em uma função linear são <strong>diretamente proporcionais</strong>, pois as razões entre os valores das duas grandezas são iguais.</p>
-            </div>
-            <p>Em Curitiba, capital do estado do Paraná, cobra-se por uma corrida de táxi um valor fixo, chamado de bandeirada, e um valor que varia conforme a quantidade de quilômetros rodados. Em horários de pico, o valor da bandeirada é
-              <span>R$</span> 5,40 e
-              o valor por quilômetro rodado é <span>R$</span> 3,30.
-            </p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Um novo serviço de transporte de passageiros operado por aplicativo de celular passou a ser oferecido. Nesse serviço, são cobrados R$ 2,50 por quilômetro rodado, sem taxas de bandeirada.</p>
-            <p>a) Complete a tabela a seguir com os valores cobrados pelo serviço de táxi e pelo novo serviço de transporte de passageiros de acordo com as distâncias indicadas.</p>
-            <table class="table table-bordered table-responsive-sm">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>Distância</p>
-                  </th>
-                  <th>
-                    <p>Serviço de táxi</p>
-                  </th>
-                  <th>
-                    <p>Novo serviço</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>6 km</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>7 km</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>8 km</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-                <tr>
-                  <td>9 km</td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                  <td><textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea></td>
-                </tr>
-              </tbody>
-            </table>
-            <p>b) Determine uma função que calcule o valor total <strong>y</strong> cobrado por uma corrida de <strong>x</strong> quilômetros com o uso do serviço de táxi. Como classificamos a função encontrada?</p>
-            <p>c) Determine uma função que calcule o valor total <strong>y</strong> cobrado por uma corrida de <strong>x</strong> quilômetros com o uso do novo serviço de transporte. Como classificamos a função encontrada?</p>
-            <h3>Atividades</h3>
-            <p>1. Observe a imagem ao lado, que apresenta uma sequência de figuras formadas por losangos.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Quantos losangos terá a figura 5 dessa sequência? E a figura 6?</p>
-            <p>b) Encontre a lei de formação que expressa a quantidade L de losangos em função do número <strong>n</strong> da figura.</p>
-            <p>c) Utilizando a lei encontrada no item anterior,</p>
-            <ul>
-              <li>calcule a quantidade de losangos da figura 15;</li>
-              <li>determine a figura que apresenta 511 losangos.</li>
-            </ul>
-            <p>2. Ronaldo é técnico em informática e foi chamado para consertar alguns computadores em uma empresa. Ele cobra <span>R$</span> 100,00 pela visita mais R$ 40,00 por hora de trabalho.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Represente o valor <strong>y</strong> cobrado por Ronaldo em função das horas <strong>x</strong> trabalhadas.</p>
-            <p>b) Que tipo de função você encontrou no item anterior? Justifique sua resposta.</p>
-            <p>c) Ronaldo trabalhou durante 4 horas na empresa. Quanto ele cobrará pelo serviço realizado?</p>
-            <p>d) Fracionando a hora de forma proporcional, quantos reais Ronaldo deverá cobrar se trabalhar apenas 45 minutos? Explique o raciocínio adotado.</p>
-            <p>e) As grandezas <strong>y</strong> e <strong>x</strong> são diretamente proporcionais? Justifique sua resposta.</p>
-            <p>3. A altura média de uma criança pode ser estimada por meio da fórmula <strong>f(x) = 5,7x + 81,5</strong>, em que <strong>x</strong> representa a idade da criança, em anos, e <strong>f(x)</strong> sua altura média, em centímetros.</p>
-            <p>a) A fórmula dada representa uma função afim? Justifique sua resposta.</p>
-            <p>b) Segundo essa fórmula, aproximadamente com que idade as crianças têm altura média de 1,39 m?</p>
-            <p>c) Segundo essa fórmula, qual é a altura média estimada para uma criança de 8 anos?</p>
-            <p>4. Na representação de um hexágono regular, está indicada a medida de um de seus lados.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Escreva uma função que represente o perímetro (p) desse hexágono em função da medida de seu lado (x).</p>
-            <p>b) Que tipo de função é essa? Justifique sua resposta.</p>
-            <p>c) As grandezas <strong>p</strong> e <strong>x</strong> são proporcionais? Justifique sua resposta.</p>
-            <p>d) Qual o perímetro desse hexágono sabendo que x = 9 cm?</p>
-            <p>e) Qual deve ser a medida <strong>x</strong> para que esse hexágono tenha 31,2 cm de perímetro?</p>
-            <p>5. Uma fórmula usada para determinar o número dos calçados é <strong>$N = {5c + 28}/4$</strong>, na qual <strong>$N$</strong> indica o número do calçado e <strong>c</strong> o comprimento dos pés, em centímetros.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Essa fórmula é uma função afim? Justifique sua resposta.</p>
-            <p>b) Qual é o número do sapato de uma pessoa cujos pés medem 20 cm de comprimento?</p>
-            <p>c) Quanto medem, em centímetros, os pés de uma pessoa que calça 35?</p>
-            <p>6. (ENEM) A figura abaixo representa o boleto de cobrança da mensalidade de uma escola, referente ao mês de junho de 2008.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Se M(x) é o valor, em reais, da mensalidade a ser paga, em que x é o número de dias em atraso, então</p>
-            <p>a) M(x) = 500 + 0,4x.</p>
-            <p>b) M(x) = 500 + 10x.</p>
-            <p>c) M(x) = 510 + 0,4x.</p>
-            <p>d) M(x) = 510 + 40x.</p>
-            <p>e) M(x) = 500 + 10,4x.</p>
-            <p>7. (SARESP) Carla está calculando o custo de uma viagem de carro. Ela sabe que, para andar 120 km, seu carro consome 15 litros de combustível, cujo preço é R$ 2,00 o litro. Para uma viagem de 960 km, Carla gastará, apenas com
-              combustível:</p>
-            <p>a) R$ 120,00.</p>
-            <p>b) R$ 128,00.</p>
-            <p>c) R$ 220,00.</p>
-            <p>d) R$ 240,00.</p>
-            <p>8. Juliano calculou o perímetro do retângulo abaixo e fez a seguinte afirmação:</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>A afirmação de Juliano está correta? Justifique sua resposta por meio de exemplos numéricos.</p>
-            <h3>Representação gráfica</h3>
-            <p>Com base na situação a seguir, você vai aprender a construir o gráfico de uma função afim.</p>
-            <p>Fabiana economizou uma parte do seu salário durante alguns meses e conseguiu comprar uma motocicleta, com a qual vai trabalhar todos os dias.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>A motocicleta de Fabiana percorre em média 18 km com 1 litro de gasolina. Portanto, a lei de formação que relaciona a distância percorrida <strong>y</strong> com a quantidade de litros <strong>x</strong> de gasolina gastos é dada por y
-              = 18 · x.</p>
-            <p>Assim, podemos elaborar a seguinte tabela:</p>
-            <table class="table table-bordered table-responsive-sm">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>Quantidade de gasolina x (litros)</p>
-                  </th>
-                  <th>
-                    <p>Distância percorrida y (km)</p>
-                  </th>
-                  <th>
-                    <p>Pares ordenados (x, y)</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>0</td>
-                  <td>y = 18 · 0 = 0</td>
-                  <td>(0, 0)</td>
-                </tr>
-                <tr>
-                  <td>0,5</td>
-                  <td>y = 18 ∙ 0,5 = 9</td>
-                  <td>(0,5; 9)</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>y = 18 ∙ 1 = 18</td>
-                  <td>(1, 18)</td>
-                </tr>
-                <tr>
-                  <td>1,5</td>
-                  <td>y = 18 ∙ 1,5 = 27</td>
-                  <td>(1,5; 27)</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>y = 18 ∙ 2 = 36</td>
-                  <td>(2, 36)</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>Lembre-se de que, no ponto (1, 18), por exemplo, os números 1 e 18, nessa ordem, são suas coordenadas. A primeira coordenada é chamada de <strong>abscissa</strong> e a segunda, de <strong>ordenada</strong>. Então, no par ordenado (1,
-                18), o número 1 é a abscissa e o número 18 é a ordenada.</p>
-            </div>
-            <p>Agora vamos marcar no plano cartesiano os pares ordenados obtidos na tabela anterior e, em seguida, traçar a semirreta que passa por esses pontos.</p>
-            <p>Note que, no eixo <strong>y</strong>, adotamos uma escala diferente da usada no eixo <strong>x</strong> para facilitar a visualização dos pontos obtidos na tabela anterior.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <div class="notification is-primary">
-              <p>Esse é o gráfico da função afim que relaciona a distância percorrida <strong>y</strong> com a quantidade de litros <strong>x</strong> de gasolina gastos.</p>
-            </div>
+            <p>c) O que é possível observar quanto à posição de cada uma dessas retas em relação à circunferência?</p>
+            <p>Considerando uma circunferência de centro em O e uma reta s, podemos ter as seguintes posições da reta em relação à circunferência:</p>
             <article class="message">
               <div class="message-body">
-                <h3>Matemática em detalhes</h3>
-                <p>O gráfico de uma função é o conjunto de todos os pontos correspondentes aos pares ordenados que satisfazem determinada lei matemática dada. Na situação anterior, perceba que existem infinitos pontos que pertencem à semirreta
-                  traçada. Dessa forma, há infinitos pares ordenados que satisfazem a relação y = 18 · x. Também note que, como <strong>x</strong> é um valor maior ou igual a zero (por corresponder à quantidade de gasolina), o valor de
-                  <strong>y</strong> também é um valor maior ou igual a zero. Por isso dizemos que o <strong>domínio</strong> dessa função é o conjunto dos números maiores ou iguais a zero. Contudo, é possível que, para uma mesma função afim, o
-                  domínio seja diferente e isso ocorre, por exemplo, caso o valor de <strong>x</strong> não seja necessariamente maior ou igual a zero.
-                </p>
-              </div>
-            </article>
-            <p>Vamos agora construir, no plano cartesiano, o gráfico da função afim dada por y = 3x + 1, em que <strong>x</strong> representa um número real.</p>
-            <p>Observe que, por <strong>x</strong> ser um número real, para ele podem ser atribuídos valores negativos, positivos, inteiros, racionais, irracionais, etc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-5-desktop is-offset-1-desktop">
-          <div class="content">
-            <p>a) Na tabela a seguir, foram atribuídos alguns valores para a variável <strong>x</strong>. Determine os respectivos valores de <strong>y</strong>.</p>
-            <table class="table table-bordered table-responsive-sm is-fullwidth has-text-centered my-5">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>x</p>
-                  </th>
-                  <th>
-                    <p>y = 3x + 1</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>
-                    <p>-1</p>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>0</p>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>1</p>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>2</p>
-                  </td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="column is-5-desktop">
-          <div class="content">
-            <p>b) Marque, no plano cartesiano, alguns pontos obtidos e construa o gráfico dessa função.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>Nesse caso, o gráfico encontrado é uma reta. Pode-se dizer que essa reta tem equação y = 3x + 1, e isso significa que todo ponto pertencente à reta satisfaz essa equação.</p>
-            <p>Quando se estiver considerando <strong>x</strong> real, o gráfico de uma função afim é uma <strong>reta</strong>, que pode ser desenhada caso sejam conhecidos dois de seus pontos.</p>
-            <p>Perceba que as coordenadas do ponto em que o gráfico da função y = 3x + 1 intersecta o eixo <strong>y</strong> são x = 0 e y = 3 · 0 + 1 = 1. O ponto que tem essas coordenadas é dado por (0, 1). Note também que as coordenadas do ponto
-              em
-              que o gráfico da função y = 3x + 1 intersecta o eixo <strong>x</strong> são y = 0 e <span>$$x = - 1/3$$</span>. O ponto que tem essas coordenadas é dado por <span>$$(- 1/3,0)$$</span></p>
-            <div class="notification is-primary">
-              <p>O valor de <strong>x</strong> para o qual temos y = 0 é denominado <strong>zero</strong> da função afim ou também <strong>raiz</strong> da função. O gráfico de uma função afim intersecta o eixo <strong>x</strong> em um único ponto,
-                cuja abscissa corresponde ao zero da função.</p>
-            </div>
-            <p>Ainda de acordo com o exemplo anterior, qual é o zero da função y = 3x + 1? _______________</p>
-            <p>Observe, em cada um dos dois casos a seguir, os gráficos de duas funções afim distintas.</p>
-            <p>1.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <div class="notification is-warning has-text-centered">
-              <p>y = x + 2</p>
-            </div>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <div class="notification is-warning has-text-centered">
-              <p>y = 3x – 1</p>
-            </div>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>Agora, responda aos itens a seguir.</p>
-            <ul>
-              <li>Qual é o sinal do coeficiente <strong>a</strong> em cada função? _______________</li>
-              <li>Qual é o ponto de intersecção da função com o eixo <strong>y</strong> em cada caso? Qual é a sua relação com o coeficiente <strong>b</strong>? _______________</li>
-              <li>Qual é o zero de cada função? _______________</li>
-              <li>Se substituirmos valores cada vez maiores em <strong>x</strong>, o que ocorre com os valores de <strong>y</strong>? _______________</li>
-            </ul>
-            <p>Ao observar os gráficos das funções y = x + 2 e y = 3x – 1, você pode perceber que, à medida que os valores de <strong>x</strong> aumentam, os valores correspondentes de <strong>y</strong> também aumentam. Quando isso ocorre, dizemos
-              que a função é <strong>crescente</strong>.</p>
-            <p>2.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <div class="notification is-warning has-text-centered">
-              <p>y = –x + 2</p>
-            </div>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <div class="notification is-warning has-text-centered">
-              <p>y = –3x – 1</p>
-            </div>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>Agora, responda aos itens a seguir.</p>
-            <ul>
-              <li>Qual é o sinal do coeficiente <strong>a</strong> em cada função? _______________</li>
-              <li>Qual é o ponto de intersecção com o eixo <strong>y</strong> de cada função? Qual é a sua relação com o coeficiente <strong>b</strong>? _______________</li>
-              <li>Qual é o zero de cada função? _______________</li>
-              <li>Se substituirmos valores cada vez maiores em <strong>x</strong>, o que ocorre com os valores de <strong>y</strong>? _______________</li>
-            </ul>
-            <div class="notification is-warning">
-              <p>Ao observar os gráficos das funções y = –x + 2 e y = –3x – 1, você pode perceber que, à medida que os valores de <strong>x</strong> aumentam, os valores correspondentes de <strong>y</strong> diminuem. Quando isso ocorre, dizemos que
-                a função é <strong>decrescente</strong>.</p>
-            </div>
-            <article class="message">
-              <div class="message-body">
-                <p>Analisando os gráficos das funções dos itens anteriores, é possível observar que, quando o coeficiente <strong>a</strong> da função y = ax + b é positivo, a função é crescente e que, quando <strong>a</strong> é negativo, a função é
-                  decrescente.</p>
-              </div>
-            </article>
-            <p>Agora, construa no plano cartesiano o gráfico de y = 2x + 6, considerando:</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop">
-          <div class="content">
-            <p>a) x ∈ $$\ℤ$$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <p>b) x ∈ $$\ℝ_{+}$$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <p>b) x ∈ $$\ℝ$$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <h2>Conexões</h2>
-            <p>O conceito de função é utilizado em diversas áreas do conhecimento. Na Física, por exemplo, o uso da função afim é bastante comum.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Como exemplo, vamos analisar o movimento de um automóvel. Considere que esse automóvel percorra determinada distância com velocidade constante de 80 km/h, isto é, a cada uma hora, ele percorre 80 quilômetros. Observe o quadro:</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>Intervalo de tempo</p>
-                  </th>
-                  <th>
-                    <p>Distância percorrida</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>
-                    <p><strong>1h</strong></p>
-                  </td>
-                  <td>80 km</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p><strong>2h</strong></p>
-                  </td>
-                  <td>160 km</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p><strong>3h</strong></p>
-                  </td>
-                  <td>240 km</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>Dizemos que esse automóvel realiza um movimento uniforme: ele percorre distâncias iguais em intervalos de tempos iguais.</p>
-            <p>Além da distância percorrida, em geral é bastante útil conhecer a posição do automóvel em determinado momento do tempo, o que exige um sistema de referência: a posição é então calculada com relação a alguma localidade desse sistema de
-              referência, denominada de origem.</p>
-            <p>Para esse exemplo, vamos adotar como sistema de referência a rodovia federal BR-116, uma das principais do Brasil. Na representação a seguir, podemos observar a distância <strong>s</strong>, em km, entre algumas das principais cidades
-              de São Paulo por onde passa a BR-116. Na representação, foi utilizada como marco 0 (origem) a divisa dos estados de São Paulo e do Rio de Janeiro.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Vamos considerar que esse automóvel estivesse na rodovia BR-116 e que passasse pela cidade de Guaratinguetá (posição inicial s<sub>0</sub> = 65 km) com velocidade constante de 80 km/h quando seu movimento começou a ser observado (tempo
-              inicial:
-              t<sub>0</sub> = 0 s).</p>
-            <p>Considerando que o carro tenha mantido a velocidade constante de 80 km/h, podemos calcular sua posição ao longo do tempo conforme exemplos a seguir.</p>
-            <ul>
-              <li>t<sub>0</sub> = <font style="color:red">0 h</font>: posição inicial s<sub>0</sub> = <font style="color:blue">65 km</font>
-              <li>t<sub>1</sub> = <font style="color:red">0,5 h</font>: posição s<sub>1</sub> = <font style="color:blue">65</font> + <font style="color:green">80</font> ∙ <font style="color:red">0,5</font> = <font style="color:blue">65</font> + 40 =
-                105 km</li>
-              <li>t<sub>2</sub> = <font style="color:red">1 h</font>: posição s<sub>2</sub> = <font style="color:blue">65</font> + <font style="color:green">80</font> ∙ <font style="color:red">1</font> = <font style="color:blue">65</font> + 80 =
-                145 km</li>
-              <li>t<sub>3</sub> = <font style="color:red">2 h</font>: posição s<sub>3</sub> = <font style="color:blue">65</font> + <font style="color:green">80</font> ∙ <font style="color:red">2</font> = <font style="color:blue">65</font> + 160 =
-                225 km</li>
-              </li>
-            </ul>
-            <p>Podemos dizer que, <strong style="color:red">t</strong> horas após o início da observação, a posição do carro será dada por:</p>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p>s = <font style="color:blue">65</font> + <font style="color:green">80</font> ∙ <font style="color:red">t</font>
-                </p>
-              </div>
-            </div>
-            <p>Observe que essa é uma função afim, sendo <strong>s</strong> a <strong>variável dependente</strong> e <strong>t</strong> a <strong>variável independente</strong>, com gráfico representado a seguir (para t ≥ 0).</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Por meio dessa função, também é possível calcular o tempo necessário para que o carro chegue a determinada cidade.</p>
-            <p>Por exemplo: após quanto tempo o carro chegará a São José dos Campos?</p>
-            <p>Como São José dos Campos se encontra na posição 146 km, temos:</p>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p>$s = 65 + 80t$</p>
-                <p>$146 = 65 + 80t$</p>
-                <p>$t = 81/80$</p>
-                <p>$t ≃ 1$</p>
-              </div>
-            </div>
-            <p>Após 1 hora, aproximadamente, o carro chegará a São José dos Campos.</p>
-            <h3>Atividades</h3>
-            <p>1. O gráfico ao lado, que está fora de escala, apresenta o volume médio de água (y), em litros, que um chuveiro gasta em função do tempo (x), em minutos, que ele fica ligado.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Quantos litros de água são gastos em 8 minutos de banho?</p>
-            <p>b) Escreva uma função que possibilite calcular o volume de água utilizado pela pessoa em função do tempo de duração do banho.</p>
-            <p>c) Calcule o volume de água gasto em um banho de 3,5 minutos e em um banho de 15 minutos.</p>
-            <p>d) Para a Organização das Nações Unidas (ONU), o consumo diário total de 110 L de água é suficiente para as necessidades de uma pessoa. Sabendo disso, você pode perceber por que o banho é considerado um dos grandes vilões do consumo de
-              água. Dessa forma, converse com os colegas e o professor sobre atitudes que ajudem uma pessoa a economizar água durante o banho e as anote no caderno.</p>
-            <p>2. Construa, no plano cartesiano, o gráfico de cada função.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>a) $y = x + 3$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <p>c) $y = –3x + 1$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>b) $y = 2x$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <p>d) $y = x/2 - 1$</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>3. (UNICAMP – SP) O gráfico abaixo exibe o lucro líquido (em milhares de reais) de três pequenas empresas A, B e C, nos anos de 2013 e 2014.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Com relação ao lucro líquido, podemos afirmar que:</p>
-            <p>a) A teve um crescimento maior do que C.</p>
-            <p>b) C teve um crescimento maior do que B.</p>
-            <p>c) B teve um crescimento igual a A.</p>
-            <p>d) C teve um crescimento menor do que B.</p>
-            <p>4. Em um mesmo plano cartesiano, construa o gráfico das seguintes funções:</p>
-            <p>a) f(x) = x</p>
-            <p>b) g(x) = 2x</p>
-            <p>c) h(x) = 4x</p>
-            <p>d) m(x) = 10x</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <ul>
-              <li>As retas encontradas são paralelas? _______________</li>
-              <li>Comparando-se as retas encontradas, o que podemos dizer sobre o gráfico de uma função afim e seu coeficiente <strong>a</strong>? _______________</li>
-            </ul>
-            <p>5. Em um mesmo plano cartesiano, construa o gráfico das seguintes funções:</p>
-            <p>a) f(x) = x</p>
-            <p>b) g(x) = x + 1</p>
-            <p>c) h(x) = x – 3</p>
-            <p>d) m(x) = x + 2</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <ul>
-              <li>Os gráficos construídos apresentam algum ponto em comum? _______________</li>
-              <li>Qual é a posição relativa das retas obtidas? Justifique sua resposta.</li>
-            </ul>
-            <p>6. (ENEM) Em um mês, uma loja de eletrônicos começa a obter lucro já na primeira semana. O gráfico representa o lucro (L) dessa loja desde o início do mês até o dia 20. Mas esse comportamento se estende até o último dia, o dia 30.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>A representação algébrica do lucro (L) em função do tempo (t) é:</p>
-            <p>a) L(t) = 20t + 3 000</p>
-            <p>b) L(t) = 20t + 4 000</p>
-            <p>c) L(t) = 200t</p>
-            <p>d) L(t) = 200t – 1 000</p>
-            <p>e) L(t) = 200t + 3 000</p>
-            <p>7. Escreva a função correspondente a cada gráfico a seguir e indique se a função é crescente ou decrescente.</p>
-            <p>a)</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>b)</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <h2>Função quadrática</h2>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>Ao redor de um jardim retangular, deseja-se construir uma calçada de largura constante, conforme ilustrado na figura a seguir, com <strong>x</strong> em metros.</p>
-            <p>Perceba que a área reservada para a calçada depende da medida <strong>x</strong>. Nesse caso, vamos determinar uma expressão algébrica que representa a área total, em metros quadrados, do jardim com a calçada.</p>
-            <p>Mas antes calcule a área do jardim desconsiderando a calçada.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>Perceba que a área composta pelo jardim e pela calçada é um retângulo cujos lados têm medidas, em metros, iguais a 5 + 2x e 3 + 2x. Dessa maneira, chamando de A<sub>T</sub> a área total, temos:</p>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p>A<sub>T</sub> = (5 + 2x) ∙ (3 + 2x)</p>
-                <p>A<sub>T</sub> = 15 + 10x + 6x + 4x<sup>2</sup></p>
-                <p>A<sub>T</sub> = 4x<sup>2</sup> + 16x + 15</p>
-              </div>
-            </div>
-            <p>Observe que esse valor é dado em metros quadrados.</p>
-            <p>A área total (A<sub>T</sub>) do jardim com a calçada, em metros quadrados, pode ser expressa em função da medida x, em metros, pela função A<sub>T</sub> = 4x<sup>2</sup> + 16x + 15.</p>
-            <p>Observe que a lei matemática da função A<sub>T</sub> é formada por um polinômio do 2º. grau na variável <strong>x</strong>, sendo por isso chamada de <strong>função quadrática</strong> ou <strong>função polinomial do 2.º grau</strong>.
-            </p>
-            <p>Se representarmos o coeficiente de x<sup>2</sup> pela letra <strong>a</strong>, o coeficiente de <strong>x</strong> pela letra <strong>b</strong> e o termo independente pela letra <strong>c</strong>, temos y = ax<sup>2</sup> + bx + c.
-            </p>
-            <div class="notification is-warning">
-              <p>Chamamos de <strong>função quadrática</strong> toda função que pode ser escrita na forma y = ax<sup>2</sup> + bx + c, em que <strong>a</strong>, <strong>b</strong> e <strong>c</strong> são coeficientes reais, com a ≠ 0 e
-                <strong>x</strong> real.
-              </p>
-            </div>
-            <h3>Atividades</h3>
-            <p>1. Dada a função g(x) = 2x<sup>2</sup> + x – 4, calcule:</p>
-            <p>a) g(0) _______________</p>
-            <p>b) g(–2) _______________</p>
-            <p>c) g(5) _______________</p>
-            <p>d) g(2,5) _______________</p>
-            <p>e) g$(1/2)$ _______________</p>
-            <p>2. Sendo f(x) = x<sup>2</sup> – 3x + 2, determine, utilizando o método de completar quadrados estudado no capítulo anterior, para quais valores de <strong>x</strong> temos f(x) = 0.</p>
-            <p>3. Verifique quais das seguintes funções são quadráticas e identifique os valores dos coeficientes <strong>a</strong>, <strong>b</strong> e <strong>c</strong>.</p>
-            <p>a) y = –6x + 6 + x ∙ (x + 8)</p>
-            <p>b) y = 5 ∙ (3 – x) + 12x</p>
-            <p>c) y = 2 + (x + 4)(x – 4)</p>
-            <p>d) y = (x – 6)<sup>2</sup> – (x + 1)<sup>2</sup></p>
-            <p>4. (ENEM) A temperatura T de um forno (em graus centígrados) é reduzida por um sistema a partir do instante de seu desligamento (t = 0) e varia de acordo com a expressão $$T(t)=-({t^2}/4)$$ + 400 com t em minutos.Por motivos de
-              segurança, a trava do forno só é liberada para abertura quando o forno atinge atemperatura de 39 °C. Qual o tempo mínimo de espera, em minutos, após se desligar o forno, para quea porta possa ser aberta?</p>
-            <p>a) 19,0</p>
-            <p>b) 19,8</p>
-            <p>c) 20,0</p>
-            <p>d) 38,0</p>
-            <p>e) 39,0</p>
-            <h3>Gráfico de uma função quadrática</h3>
-            <p>Podemos analisar o comportamento de uma função quadrática pela observação do seu gráfico, que pode ser construído com base em uma tabela.</p>
-            <p>Observe o exemplo a seguir.</p>
-            <p><strong>Construção do gráfico da função y = x<sup>2</sup></strong></p>
-            <p>Observe como podemos construir o gráfico da função y = x<sup>2</sup>.</p>
-            <p>Ao substituirmos os valores de <strong>x</strong> nessa função, obtemos os respectivos valores de <strong>y</strong>:</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <ul>
-              <li>para x = –<strong style="color:purple">2</strong>, temos y = (–2)<sup>2</sup> = <strong style="color:orange">4</strong>;</li>
-              <li>para x = –<strong style="color:purple">1</strong>, temos y = (–1)<sup>2</sup> = <strong style="color:orange">1</strong>;</li>
-              <li>para x = <strong style="color:purple">0</strong>, temos y = 0<sup>2</sup> = <strong style="color:orange">0</strong>;</li>
-              <li>para x = <strong style="color:purple">1</strong>, temos y = 1<sup>2</sup> = <strong style="color:orange">1</strong>;</li>
-              <li>para x = <strong style="color:purple">2</strong>, temos y = 2<sup>2</sup> = <strong style="color:orange">4</strong>;</li>
-            </ul>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>x</p>
-                  </th>
-                  <th>
-                    <p>y</p>
-                  </th>
-                  <th>
-                    <p>(x, y)</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td><strong style="color:purple">-2</strong></td>
-                  <td><strong style="color:purple">4</strong></td>
-                  <td>(<strong style="color:purple">-2</strong>, <strong style="color:purple">4</strong>)</td>
-                </tr>
-                <tr>
-                  <td><strong style="color:purple">-1</strong></td>
-                  <td><strong style="color:purple">1</strong></td>
-                  <td>(<strong style="color:purple">-1</strong>, <strong style="color:purple">1</strong>)</td>
-                </tr>
-                <tr>
-                  <td><strong style="color:purple">0</strong></td>
-                  <td><strong style="color:purple">0</strong></td>
-                  <td>(<strong style="color:purple">0</strong>, <strong style="color:purple">0</strong>)</td>
-                </tr>
-                <tr>
-                  <td><strong style="color:purple">1</strong></td>
-                  <td><strong style="color:purple">1</strong></td>
-                  <td>(<strong style="color:purple">1</strong>, <strong style="color:purple">1</strong>)</td>
-                </tr>
-                <tr>
-                  <td><strong style="color:purple">2</strong></td>
-                  <td><strong style="color:purple">4</strong></td>
-                  <td>(<strong style="color:purple">2</strong>, <strong style="color:purple">4</strong>)</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>Para construir o gráfico procurado, devemos ligar os pontos encontrados. Observe as imagens a seguir. A figura da esquerda mostra como esse procedimento <strong>não</strong> deve ser feito. Perceba que não devemos ligar os pontos por
-              segmentos de reta. Os pontos devem ser ligados formando uma curva chamada de <strong>parábola</strong>, conforme a figura da direita.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-desktop is-offset-2-desktop">
-          <div class="content">
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <article class="message">
-              <div class="message-body">
-                <p>Perceba que poderíamos atribuir uma infinidade de números reais para a variável <strong>x</strong>, obtendo os correspondentes valores de <strong>y</strong> e então os pares ordenados (x, y). São esses pares ordenados que formam a
-                  curva construída no plano cartesiano. Quanto maior for o número de pontos marcados, mais real ficará o gráfico da função.</p>
-              </div>
-            </article>
-            <div class="notification is-primary">
-              <p>O gráfico de uma função quadrática é uma curva chamada <strong>parábola</strong>. Essa curva tem um <strong>eixo de simetria</strong>. O ponto no qual o eixo de simetria e a parábola se cruzam é chamado de <strong>vértice</strong> da
-                parábola.</p>
-            </div>
-            <p>Observe na parábola construída que:</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <ul>
-              <li>os pontos (1, 1) e (–1, 1) são simétricos em relação ao eixo <strong>y</strong>: ambos estão distantes 1 unidade do eixo <strong>y</strong>;</li>
-              <li>os pontos (2, 4) e (–2, 4) são simétricos em relação ao eixo <strong>y</strong>: cada um deles está a 2 unidades de distância do eixo <strong>y</strong>.</li>
-            </ul>
-            <p>O eixo de simetria do gráfico de y = x<sup>2</sup> é o eixo <strong>y</strong> (eixo das ordenadas), pois a parábola está <strong>espelhada</strong> em relação ao eixo <strong>y</strong>.</p>
-            <p>Observe, no gráfico, que o eixo de simetria intersecta a parábola no ponto (0, 0): esse é o <strong>vértice</strong> da parábola.</p>
-            <p>Vamos agora determinar a média aritmética entre as abscissas dos pontos (1, 1) e (–1, 1) e entre abscissas dos pontos (2, 4) e (–2, 4).</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns has-text-centered">
-        <div class="column is-5-desktop is-offset-1-desktop">
-          <div class="content">
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body">
-                <p>Média aritmética das abscissas dos pontos (1, 1) e (–1, 1):</p>
-                <p>$$m_1 = {-1+1}/2$$</p>
-                <p>$$m_1 = 0$$</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column is-5-desktop">
-          <div class="content">
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body">
-                <p>Média aritmética das abscissas dos pontos (2, 4) e (–2, 4):</p>
-                <p>$$m_2 = {-2+2}/2$$</p>
-                <p>$$m_2 = 0$$</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>Note que, ao determinar a média aritmética entre as abscissas de dois pontos simétricos de uma parábola de equação y = ax<sup>2</sup> + bx + c, encontramos a abscissa do seu vértice.</p>
-            <p>Perceba que há alguns pontos notáveis no gráfico de uma função quadrática: seu vértice e as intersecções com os eixos das abscissas e das ordenadas.</p>
-            <p>No exemplo anterior, o gráfico foi construído com base na tabela previamente elaborada com esses pontos notáveis. Agora, vamos construir o gráfico calculando inicialmente esses pontos. Nos próximos dois exercícios, vamos construir o
-              gráfico de duas funções quadráticas distintas. Para isso, você deverá responder à sequência de perguntas feitas para que, ao final, tenha todas as informações necessárias para elaborar os gráficos.</p>
-            <p>1. <strong>y = x<sup>2</sup> – 4x + 3</strong></p>
-            <p>a) Determine os pontos em que a parábola intersecta o eixo <strong>x</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>b) Determine o ponto em que a parábola intersecta o eixo <strong>y</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>c) Determine a abscissa do vértice da parábola calculando a média aritmética entre as abscissas dos pontos que você encontrou no item <strong>a</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>d) Determine a ordenada do vértice da parábola substituindo sua abscissa na equação y = x<sup>2</sup> – 4x + 3.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>e) Com os pontos obtidos até aqui, construa o gráfico da parábola.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>f) Observe o gráfico que você construiu e responda às questões.</p>
-            <ul>
-              <li>Qual é o sinal do coeficiente de x<sup>2</sup> na função? _______________</li>
-              <li>A parábola que você traçou tem concavidade voltada para cima ou para baixo? _______________</li>
-            </ul>
-            <p>2. <strong>y = –x<sup>2</sup> + 2x + 3</strong></p>
-            <p>a) Determine os pontos em que a parábola intersecta o eixo <strong>x</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>b) Determine o ponto em que a parábola intersecta o eixo <strong>y</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>c) Determine a abscissa do vértice da parábola calculando a média aritmética entre as abscissas dos pontos que você encontrou no item <strong>a</strong>.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>d) Determine a ordenada do vértice da parábola substituindo sua abscissa na equação y = –x<sup>2</sup> + 2x + 3.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
-            <p>e) Construa o gráfico da função.</p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>f) Observe o gráfico que você construiu e responda às questões.</p>
-            <ul>
-              <li>Qual é o sinal do coeficiente de x<sup>2</sup> na função? _______________</li>
-              <li>A parábola que você traçou tem concavidade voltada para cima ou para baixo? _______________</li>
-            </ul>
-            <article class="message">
-              <div class="message-body">
-                <p><strong>Concavidade da parábola de equação y = ax² + bx + c</strong></p>
-                <p>Se a > 0, ou seja, se <strong>a</strong> é positivo, a concavidade da parábola é voltada para cima.</p>
-                <figure class="image wrapper mx-0 my-5">
+                <h5>A reta s intersecta a circunferência em dois pontos</h5>
+                <figure class="image wrapper mx-0">
                   <img src="./img/MATXXX.jpg" data-aos="fade-up">
                 </figure>
-                <p>Se a < 0, ou seja, se <strong>a</strong> é negativo, a concavidade da parábola é voltada para baixo.</p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
+                <p>Uma reta que intersecta a circunferência em dois pontos é chamada de <strong>reta secante</strong> à circunferência.</p>
               </div>
             </article>
-            <article class="message">
-              <div class="message-body">
-                <p><strong>Zeros da função quadrática</strong></p>
-                <p>Em uma função quadrática y = ax² + bx + c, com a ≠ 0, denomina-se <strong>zero</strong> da função ou <strong>raiz</strong> da função um número real <strong>x</strong> em que y = 0. Graficamente, os zeros de uma função quadrática
-                  são as abscissas dos pontos em que a parábola
-                  intersecta o eixo <strong>x</strong>.</p>
-              </div>
-            </article>
-            <p>Do mesmo modo que uma equação do 2.º grau ax² + bx + c = 0 pode ter duas raízes reais e distintas, duas raízes reais e iguais ou ainda não admitir raízes reais, conforme o valor do discriminante ∆ = b² - 4ac, para umafunção quadrática
-              y = ax² + bx + c também temos as seguintes possibilidades:</p>
-            <ul>
-              <li>para ∆ > 0, a função tem duas raízes reais e distintas;</li>
-              <li>para ∆ = 0, a função tem duas raízes reais e iguais;</li>
-              <li>para ∆ < 0, a função não tem raiz real.</li>
-            </ul>
-            <article class="message">
-              <div class="message-body">
-                <p><strong>Ponto de intersecção com o eixo y</strong></p>
-                <p>O ponto em que o gráfico de uma função quadrática y = ax² + bx + c intersecta o eixo y tem abscissa igual a zero. Para determinar a ordenada desse ponto, temos que substituir x = 0 na função.</p>
-                <p class="has-text-centered">y = a ∙ <font style="color:red">0</font>² + b ∙ <font style="color:red">0</font> + c</p>
-                <p class="has-text-centered">y = c</p>
-                <p>Observe que a ordenada desse ponto corresponde ao termo independente da função quadrática. Assim, o gráfico de uma função quadrática intersecta o eixo <strong>y</strong> no ponto de coordenadas (0, c).</p>
-              </div>
-            </article>
-            <p>Veja que a função quadrática f(x) = x² – 4x + 5 não tem raízes reais.</p>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p>x² – 4x + 5 = 0</p>
-                <p>x² – 4x + 5 – 1 = –1</p>
-                <p>x² – 4x + 4 = –1</p>
-                <p>(x – 2)² = –1</p>
-              </div>
-            </div>
-            <p>Como não existe um número real que elevado ao quadrado resulte em –1, concluímos que a função não apresenta raízes reais.</p>
-            <p>O gráfico dessa função não intersecta o eixo <strong>x</strong>, pois a função não tem raízes reais, ou seja, não existe valor real para <strong>x</strong> com o qual se tem y = 0. Mas perceba que o gráfico intersecta o eixo
-              <strong>y</strong> no ponto (0, 5), uma vez que f(0) = 5.
-            </p>
-            <p>Como a função y = x² – 4x + 5 não apresenta raízes reais, ou seja, não intersecta o eixo <strong>x</strong>, não podemos determinar as coordenadas do vértice pela média aritmética das raízes como fizemos anteriormente. Nesse caso, para
-              determinarmos a abscissa do vértice do gráfico de uma função quadrática, podemos usar a seguinte expressão:</p>
-            <div class="notification is-warning has-text-centered">
-              <p>$$x_v = - b/{2a}$$</p>
-            </div>
-            <p>Para determinarmos a ordenada desse vértice (y<sub>v</sub>), basta substituirmos x<sub>v</sub> na lei da função.</p>
-            <p>Assim, as coordenadas do vértice da parábola de f(x) = x² – 4x + 5 são:</p>
-            <ul>
-              <li>$$x_v = - b/{2a} = - {(-4)}/{2 · 1} = 4/2 = 2$$</li>
-              <li>y<sub>v</sub> = x<sub>v</sub><sup>2</sup> – 4x<sub>v</sub> + 5 = 2² – 4 ∙ 2 + 5 = 4 – 8 + 5 = 1</li>
-            </ul>
-            <p>Assim, o vértice da parábola é o ponto V (2, 1).</p>
-            <h3>Atividades</h3>
-            <p>1. Observe a seguir o gráfico de uma função quadrática.</p>
-            <figure class="image wrapper mx-0 my-5">
+            <p>Nesse exemplo, a reta secante <strong>s</strong> intersecta a circunferência nos pontos P e Q.</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <p>a) Quais são as coordenadas dos pontos em que a parábola intersecta o eixo <strong>x</strong>? _______________</p>
-            <p>b) Quais são as coordenadas do ponto em que a parábola intersecta o eixo <strong>y</strong>? _______________</p>
-            <p>c) Quais são as coordenadas do vértice dessa parábola? _______________</p>
-            <p>d) O coeficiente <strong>a</strong> dessa função é maior, menor ou igual a 0? Justifique sua resposta.</p>
-            <p>e) A intersecção do eixo de simetria dessa parábola com o eixo <strong>x</strong> é o ponto (2, 0)? Justifique sua resposta.</p>
-            <p>2. Associe cada gráfico à sua função.</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-2-desktop is-offset-2-desktop">
-          <div class="content">
+            <p>Observe que a distância <strong>d</strong> entre o centro da circunferência (ponto O) e a reta <strong>s</strong> é calculada pela medida do segmento de reta perpendicular à <strong>s</strong> e com extremidades no ponto O e na reta
+              <strong>s</strong>.
+            </p>
+            <p>Que relação de desigualdade se pode observar entre a medida do raio <strong>r</strong> dessa circunferência e a distância <strong>d</strong> do seu centro (ponto O) até a reta <strong>s</strong>?</p>
+            <article class="message">
+              <div class="message-body">
+                <h5>A reta s intersecta a circunferência em apenas um ponto</h5>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
+                </figure>
+                <p>Uma reta que intersecta a circunferência em um único ponto é chamada de <strong>reta tangente</strong> à circunferência.</p>
+              </div>
+            </article>
+            <p>No exemplo, a reta tangente <strong>s</strong> intersecta a circunferência no ponto T.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>Observe na figura ao lado que a distância <strong>d</strong> entre o centro da circunferência (ponto O) e a reta s é calculada pela medida do segmento de reta OT.</p>
+            <p>Que relação é possível observar entre a medida do raio <strong>r</strong> da circunferência e a distância <strong>d</strong> do seu centro (ponto O) até a reta <strong>s</strong>?</p>
+            <article class="message">
+              <div class="message-body">
+                <h5>A reta s não intersecta a circunferência</h5>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
+                </figure>
+                <p>Uma reta que não intersecta a circunferência é chamada de <strong>reta externa</strong> à circunferência.</p>
+              </div>
+            </article>
+            <p>Nesse exemplo, a reta <strong>s</strong> não tem ponto comum com a circunferência.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>Observe na figura ao lado que a distância <strong>d</strong> entre o centro da circunferência (ponto O) e a reta <strong>s</strong> é calculada pela medida do segmento de reta com extremidades no ponto O e na reta <strong>s</strong>.
+            </p>
+            <p>Que relação de desigualdade se pode observar entre a medida do raio <strong>r</strong> dessa circunferência e a distância <strong>d</strong> do seu centro (ponto O) até a reta <strong>s</strong>?</p>
+            <p>Agora, considere a circunferência de centro em O e a reta <strong>s</strong>, que <strong>é tangente à circunferência</strong>. Considere também alguns pontos sobre a reta <strong>s</strong>, conforme indicado na figura ao lado.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Qual dos segmentos indicados na figura apresenta a menor medida?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) Qual dos segmentos representa a distância entre o centro dessa circunferência e a reta <strong>s</strong>?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>c) Esse segmento tem a mesma medida de qual elemento da circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
             <div class="notification is-warning">
-              <p>I. f(x) = –x² – 2x + 3</p>
+              <p>De um ponto a uma reta, podemos traçar infinitos segmentos de reta. A menor das medidas encontradas representa a <strong>distância</strong> entre o ponto e a reta.</p>
             </div>
-          </div>
-        </div>
-        <div class="column is-2-desktop">
-          <div class="content">
+            <div class="notification is-primary">
+              <p>Toda <strong>reta tangente</strong> a uma circunferência é <strong>perpendicular</strong> ao segmento que representa o raio desta no ponto de tangência.</p>
+            </div>
+            <h3>Atividades</h3>
+            <p>1. Considerando a imagem ao lado, qual(is) reta(s) é(são):</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) tangente(s) à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) secante(s) à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>c) externa(s) à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>2. No desenho ao lado, representou-se uma região plana e circular de determinada cidade com os trajetos em linha reta do metrô, do trem e da rodovia. Nesse caso, qual trajeto é:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) tangente à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) secante à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>c) externo à circunferência?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>3. Considere a circunferência de centro A e raio de medida AB representada na figura. Qual é a posição relativa em relação a essa circunferência, de uma reta que:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) dista 5 cm de A?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) dista 4 cm de A?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>c) dista 5,1 cm de A?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>4. A imagem ao lado apresenta um conjunto de roda e pneu visto de frente. Na imagem, foram destacadas as circunferências interna (em amarelo) e externa (em verde) do pneu. Esta última circunferência tem um único ponto de intersecção
+              com a reta horizontal que representa o piso.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Qual é a posição relativa entre a circunferência amarela e a reta horizontal?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) Qual é a posição relativa entre a circunferência verde e a reta horizontal?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>5. A reta <strong>t</strong> da figura é tangente à circunferência de centro O no ponto A.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Classifique o ∆OAB quanto às medidas de seus ângulos. Justifique sua resposta.</p>
+            <p>b) Determine a medida de B̂.</p>
+            <p>6. A reta que passa por A e B na figura é tangente à circunferência de centro em O, origem do plano cartesiano ortogonal, e raio igual a 1 cm.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Encontre a medida dos ângulos internos do ∆OAB.</p>
+            <p>b) Calcule a medida dos segmentos OA e AB.</p>
+            <p>7. Considere dois segmentos de reta MA e MB, tangentes a uma mesma circunferência, traçados de um mesmo ponto exterior M, de modo que $${OM}↖{-}$$ seja a bissetriz do ângulo M̂, conforme a figura a seguir.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) É possível afirmar que os triângulos OAM e OBM são congruentes? Justifique sua resposta.</p>
+            <p>b) Os segmentos de reta MA e MB são congruentes? Justifique sua resposta.</p>
+            <p>8. Considerando a figura a seguir, com medidas indicadas em centímetros, determine:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) o valor de <strong>x</strong>;</p>
+            <p>b) as medidas dos segmentos de reta AP e BP, em centímetros.</p>
+            <h3>Ângulo central e ângulo inscrito</h3>
+            <p>Na circunferência de centro O, marque dois pontos distintos, P e Q, e trace os segmentos de reta OP e OQ, que são raios da circunferência.</p>
+            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
+              <div class="card-body">
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
+                </figure>
+                <p>O ângulo PÔQ é denominado <strong>ângulo central</strong>, pois tem como vértice o centro da circunferência (ponto O).</p>
+              </div>
+            </div>
+            <p>Observe na circunferência ao lado que, ao serem traçados os segmentos de reta AO e OB, formam-se dois arcos: $${AB}↖{⌒}$$ e $${ASB}↖{⌒}$$.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>Perceba que quando queremos indicar o arco maior, consideramos um ponto pertencente a esse arco (nesse caso o ponto S) e representamos esse arco usando três pontos: $${ASB}↖{⌒}$$.</p>
+            <p>Observe também que o ângulo central AÔB e o arco correspondente $${AB}↖{⌒}$$ têm a mesma medida angular <strong>x</strong>. Lembre-se de que a medida em graus de um arco de circunferência é igual à medida do ângulo central
+              correspondente ao arco.</p>
+            <p>1. Qual é a expressão algébrica que representa a medida de $${ASB}↖{⌒}$$?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>2. Na circunferência a seguir, de centro O, marque três pontos distintos: P, Q e R. Em seguida, construa um ângulo inscrito, ou seja, um ângulo cujo vértice seja um ponto da circunferência e cujos lados sejam secantes a ela.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
             <div class="notification is-warning">
-              <p>II. f(x) = x² + 3x + 4</p>
+              <p><strong>Ângulo central</strong>: ângulos com vértice no centro da circunferência.</p>
+              <p><strong>Ângulo inscrito</strong>: ângulos com vértice em um ponto da circunferência e lados secantes à circunferência.</p>
             </div>
-          </div>
-        </div>
-        <div class="column is-2-desktop">
-          <div class="content">
-            <div class="notification is-warning">
-              <p>III. f(x) = $$- {x^2}/2$$</p>
+            <p>3. Reúna-se com um ou dois colegas e, com um compasso, construam uma circunferência com raio de aproximadamente 4 cm e centro O. Em seguida, marquem sobre a circunferência três pontos distintos: P, Q e R.</p>
+            <p>a) Com uma régua, tracem o ângulo inscrito RPQ e o ângulo central RÔQ.</p>
+            <p>b) Usando um transferidor, meçam os ângulos inscritos e centrais formados. As medidas obtidas pelos integrantes de cada grupo são iguais ou diferentes? Por quê?</p>
+            <p>c) Que relação de igualdade é possível observar entre as medidas do ângulo inscrito RPQ e do ângulo central RÔQ?</p>
+            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5 has-text-centered">
+              <div class="card-body">
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
+                </figure>
+                <p>A medida do ângulo inscrito é igual à metade da medida do ângulo central correspondente. Na figura, temos:</p>
+                <p>$$α = m({QR}↖{⌒})$$ e $$β = {m({QR}↖{⌒})}/2 = α/2$$</p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="column is-2-desktop">
-          <div class="content">
-            <div class="notification is-warning">
-              <p>IV. f(x) = x² – 8x + 12</p>
+            <p>4. De acordo com a figura ao lado, determine o valor de <strong>x</strong>.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>5. Observe as quatro circunferências com centro no ponto O, origem do plano cartesiano ortogonal, e os arcos $${AB}↖{⌒}$$, $${CD}↖{⌒}$$, $${EF}↖{⌒}$$ e $${GH}↖{⌒}$$.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Como podem ser classificados os ângulos $${AOB}↖{⌒}$$, $${COD}↖{⌒}$$, $${EOF}↖{⌒}$$ e $${GOH}↖{⌒}$$ em relação à circunferência em que se encontram os arcos $${AB}↖{⌒}$$, $${CD}↖{⌒}$$, $${EF}↖{⌒}$$ e $${GH}↖{⌒}$$, respectivamente?
+            </p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>b) Qual é a medida dos ângulos $${AOB}↖{⌒}$$, $${COD}↖{⌒}$$, $${EOF}↖{⌒}$$ e $${GOH}↖{⌒}$$?</p>
+            <div class="notification is-primary">
+              <p>Todo triângulo inscrito em uma semicircunferência é um triângulo retângulo. Essa informação será útil na resolução dos próximos exercícios!</p>
             </div>
+            <h3>Atividades</h3>
+            <p>1. Em cada um dos itens a seguir, determine a medida indicada por <strong>α</strong>.</p>
           </div>
         </div>
       </div>
@@ -1129,7 +287,7 @@
         <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
             <p>a)</p>
-            <figure class="image wrapper mx-0 my-5">
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
             <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
@@ -1138,10 +296,205 @@
         <div class="column is-4-desktop">
           <div class="content">
             <p>b)</p>
-            <figure class="image wrapper mx-0 my-5">
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
             <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <p>2. Em cada um dos itens a seguir, determine a medida de <strong>y</strong>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4-desktop is-offset-2-desktop">
+          <div class="content">
+            <p>a)</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+          </div>
+        </div>
+        <div class="column is-4-desktop">
+          <div class="content">
+            <p>b)</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <p>3. Com um compasso, trace uma circunferência de centro O, raio qualquer e diâmetro PQ. Em seguida, marque sobre a circunferência outros três pontos (A, B e C), diferentes de P e Q. Em seguida, use um transferidor para determinar as
+              medidas dos ângulos PÂQ, PB̂Q e PĈQ. O que você observa em relação às medidas encontradas?</p>
+            <p>4. Considere o ΔABC representado a seguir inscrito em uma circunferência em que $${BC}↖{-}$$ é um diâmetro e o vértice A é um ponto da circunferência.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Qual é a medida de $${BC}↖{⌒}$$?</p>
+            <p>b) Quanto mede <strong>α</strong>?</p>
+            <p>5. Junte-se com um colega para observarem na figura a seguir os ângulos e arcos formados na circunferência, sendo o vértice M interno à circunferência e diferente do centro.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) O que é possível perceber sobre a medida dos arcos $${QR}↖{⌒}$$ e $${PS}↖{⌒}$$ em relação às medidas <strong>a</strong> e <strong>b</strong>?</p>
+            <p>b) Encontrem uma expressão algébrica que indica a medida de SM̂R. Justifiquem a resposta.</p>
+            <p>c) Encontrem uma expressão algébrica que indica a medida <strong>x</strong> em relação à medida de SM̂R. Justifiquem a resposta.</p>
+            <p>6. Determine o valor de <strong>x</strong> na figura a seguir.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>7. Na figura, tem-se $$m{AB}↖{⌒} = 48°$$ e $$m{DC}↖{⌒} = 92°$$. Qual é o valor de <strong>x</strong>?</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>8. (OBMEP) As circunferências C<sub>1</sub> e C<sub>2</sub> são tangentes à reta ℓ nos pontos A e B e tangentes entre si no ponto C. Prove que o triângulo ABC é retângulo.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <h3>Conexões</h3>
+            <p>Você sabia que é possível utilizar o conhecimento de ângulo central para construir um hexágono regular, desde que seja conhecida a medida de seus lados? Isso porque as diagonais de um hexágono regular inscrito em uma circunferência
+              determinam seis ângulos centrais com 60°, conforme ilustrado na figura a seguir.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>Observe que $${OA}↖{-} ≡ {OB}↖{-}$$, pois são raios da circunferência de centro em O. Nesse caso, tem-se que OB̂A e BÂO são congruentes, ou seja, m(OB̂A) = m(BÂO) = <strong>α</strong>.</p>
+            <p>Assim, no ∆OAB, temos:</p>
+            <p>m(AÔB) + m(OB̂A) + m(BÂO) = 180°</p>
+            <p>60° + <strong>α</strong> + <strong>α</strong> = 180°</p>
+            <p>2<strong>α</strong> = 120°</p>
+            <p><strong>α</strong> = 60°</p>
+            <p>Logo, temos que m(OB̂A) = m(BÂO) = m(AÔB) = 60° e, portanto, o ∆OAB é equilátero.</p>
+            <p>Observe, também no ∆OAB, que o vértice O é o centro da cincunferência, e os outros dois vértices (A e B) são vértices do hexágono ABCDEF regular e inscrito nessa circunferência.</p>
+            <p>Com base nesses conhecimentos, vamos construir um hexágono regular com lados de medidas iguais a 2 cm.</p>
+            <div class="notification is-warning has-text-centered">
+              <p>1.º passo: traçar um segmento AB que meça 2 cm.</p>
+              <figure class="image wrapper mx-0">
+                <img src="./img/MATXXX.jpg" data-aos="fade-up">
+              </figure>
+            </div>
+            <div class="notification is-warning has-text-centered">
+              <p>2.º passo: construir um triângulo ABO equilátero usando um compasso.</p>
+              <figure class="image wrapper mx-0">
+                <img src="./img/MATXXX.jpg" data-aos="fade-up">
+              </figure>
+            </div>
+            <p>Perceba que o vértice O do ∆OAB será o centro O da cicunferência circunscrita ao hexágono que estamos construindo, sendo AB um de seus lados.</p>
+            <div class="notification is-warning has-text-centered">
+              <p>3.º passo: usando o compasso, construir a circunferência de centro O e raio de medida AB.</p>
+              <figure class="image wrapper mx-0">
+                <img src="./img/MATXXX.jpg" data-aos="fade-up">
+              </figure>
+            </div>
+            <div class="notification is-warning has-text-centered">
+              <p>4.º passo: determinar os pontos C, D, E e F com o uso do compasso, de forma que os lados BC, CD, DE, EF e FA tenham a mesma medida do lado AB (2 cm).</p>
+              <figure class="image wrapper mx-0">
+                <img src="./img/MATXXX.jpg" data-aos="fade-up">
+              </figure>
+            </div>
+            <h2>Relações métricas na circunferência</h2>
+            <h3>Relação entre cordas</h3>
+            <p>Observe na figura a seguir que as cordas $${AB}↖{-}$$ e $${CD}↖{-}$$ se intersectam no ponto P, interior à circunferência.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Desenhe e pinte os triângulos PAC e PDB.</p>
+            <p>b) Nos triângulos formados, indique os ângulos que</p>
+            <ul>
+              <li>são opostos pelo vértice: _______________</li>
+              <li>tenham medida igual à metade da medida do arco $${AD}↖{⌒}$$: _______________</li>
+              <li>tenham medida igual à metade da medida do arco $${BC}↖{⌒}$$: _______________</li>
+            </ul>
+            <div class="notification is-primary">
+              <p>Perceba que os triângulos PAC e PDB são semelhantes, pois os ângulos correspondentes são congruentes: $$\text"CPA"↖{∧} ≡ \text"BPD"↖{∧}$$, $$\text"ACP"↖{∧} ≡ \text"DBP"↖{∧}$$ e $$\text"CAP"↖{∧} ≡ \text"BDP"↖{∧}$$.</p>
+              <p class="has-text-centered">$${PA}/{PD} = {PC}/{PB} → PA · PB = PC · PD$$</p>
+            </div>
+            <h3>Relação entre segmentos secantes</h3>
+            <p>Observe na figura ao lado que os prolongamentos das cordas $${AB}↖{-}$$ e $${CD}↖{-}$$ se intersectam no ponto P, exterior à circunferência.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Trace os segmentos AD e BC.</p>
+            <p>b) Observando os triângulos PAD e PBC, escreva</p>
+            <ul>
+              <li>um ângulo comum aos dois triângulos: _______________</li>
+              <li>um par de ângulos que determina o mesmo arco $${BD}↖{⌒}$$: _______________</li>
+            </ul>
+            <div class="notification is-primary">
+              <p>Perceba que os triângulos PDA e PBC são semelhantes. Temos que $$\text"APD"↖{∧} ≡ \text"BPC"↖{∧}$$ (ângulo comum aos dois triângulos) e $$\text"DAP"↖{∧} ≡ \text"BCP"↖{∧}$$ (determinam o mesmo arco $${BD}↖{⌒}$$). Portanto, pelo caso
+                AA de semelhança de triângulos, podemos afirmar que os triângulos PDA e PBC são semelhantes. Então, novamente temos que:</p>
+              <p class="has-text-centered">$${PA}/{PD} = {PC}/{PB} → PA · PB = PC · PD$$</p>
+            </div>
+            <h3>Relação entre segmentos secante e tangente</h3>
+            <p>Observe na figura ao lado que:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <ul>
+              <li>A, B e C são pontos da circunferência;</li>
+              <li>P é um ponto exterior a essa circunferência e pertence à reta $${BD}↖{-}$$;</li>
+              <li>a reta $${PA}↖{-}$$ é tangente à circunferência.</li>
+            </ul>
+            <p>a) Trace os segmentos $${AB}↖{-}$$ e $${AC}↖{-}$$.</p>
+            <p>b) Observando os triângulos APB e CPA, escreva um par de ângulos comum aos dois triângulos.</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
+            <p>Perceba também que os ângulos PB̂A e PÂC são congruentes. Chamando de <strong>a</strong> o ângulo ABC, de <strong>d</strong> o ângulo PAC e traçando os segmentos AO e CO, temos:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>Dessa maneira, d + x = 90°, ou seja, x = 90° – d. Como a soma dos ângulos internos de um triângulo é igual a 180°, temos que:</p>
+            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
+              <div class="card-body has-text-centered">
+                <p>x + x + y = 180°</p>
+                <p>90° – d + 90° – d + y = 180°</p>
+                <p>y = 2d</p>
+                <p>Como a $$\text"y"/2$$, temos que a = d.</p>
+              </div>
+            </div>
+            <p>Logo, os ângulos PB̂A e PÂC são congruentes.</p>
+            <div class="notification is-primary">
+              <p>Dessa forma, perceba que os triângulos APB e CPA são semelhantes. Temos que $$\text"APB"↖{∧} ≡ \text"CPA"↖{∧}$$ (ângulo comum aos dois triângulos) e $$\text"PBA"↖{∧} ≡ \text"PAC"↖{∧}$$ (determinam o mesmo arco $${AC}↖{⌒}$$).
+                Portanto, pelo caso AA de semelhança de triângulos, temos que os triângulos APB e CPA são semelhantes.</p>
+              <p>Sendo assim:</p>
+              <p class="has-text-centered">$${PA}/{PB} = {PC}/{PA} → PA · PA = PB · PC → (PA)^2 = PB · PC$$</p>
+            </div>
+            <h3>Atividades</h3>
+            <p>1. Com base na circunferência e nos demais elementos representados a seguir, escreva</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) um segmento secante à circunferência: _______________</p>
+            <p>b) um segmento tangente à circunferência: _______________</p>
+            <p>c) um ponto comum a duas cordas: _______________</p>
+            <p>d) um ponto comum aos segmentos secante e tangente à circunferência: _______________</p>
+            <p>e) uma corda: _______________</p>
+            <p>2. Calcule o valor de x ou y em cada uma das figuras a seguir.</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4-desktop is-offset-2-desktop">
+          <div class="content">
+            <p>a)</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+          </div>
+        </div>
+        <div class="column is-4-desktop">
+          <div class="content">
+            <p>b)</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
           </div>
         </div>
       </div>
@@ -1149,488 +502,153 @@
         <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
             <p>c)</p>
-            <figure class="image wrapper mx-0 my-5">
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
           </div>
         </div>
         <div class="column is-4-desktop">
           <div class="content">
             <p>d)</p>
-            <figure class="image wrapper mx-0 my-5">
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea p-0 my-0" placeholder="" rows="1"></textarea>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <p>3. Considere as seguintes funções, com <strong>x</strong> real:</p>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-2-desktop is-offset-3-desktop">
-          <div class="content">
-            <div class="notification is-warning">
-              <p>I. y = x² – 4x – 5</p>
-            </div>
-          </div>
-        </div>
-        <div class="column is-2-desktop">
-          <div class="content">
-            <div class="notification is-warning">
-              <p>II. y = x² – 16</p>
-            </div>
-          </div>
-        </div>
-        <div class="column is-2-desktop">
-          <div class="content">
-            <div class="notification is-warning">
-              <p>III. y = $$- {x^2}/4 + 2x$$</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>a) Determine os zeros de cada função.</p>
-            <p>b) Determine as coordenadas do ponto em que o gráfico de cada função intersecta o eixo <strong>y</strong>.</p>
-            <p>c) Quais dessas funções têm a parábola com concavidade voltada para baixo? E para cima? Justifique suas respostas.</p>
-            <p>4. Construa o gráfico da função dada pela lei descrita em cada item, em que x é um número real.</p>
-            <table class="table table-bordered table-responsive-sm">
-              <tbody>
-                <tr>
-                  <td>
-                    <p>a) y = x² – 6x + 5</p>
-                  </td>
-                  <td>
-                    <p>b) y = x² + 4x + 4</p>
-                  </td>
-                  <td>
-                    <p>c) y = 2x² + 3</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>5. Em cada quadro, foram incluídas três funções com os mesmos valores atribuídos para <strong>x</strong>. Determine os respectivos valores de <strong>y</strong>, registrando-os nos espaços correspondentes. Em seguida, construa no plano
-              cartesiano correspondente os gráficos dessas funções.</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>x</p>
-                  </th>
-                  <th>
-                    <p>y = x²</p>
-                  </th>
-                  <th>
-                    <p>y = 2x²</p>
-                  </th>
-                  <th>
-                    <p>y = 3x²</p>
-                  </th>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>-2</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>-1</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>0</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>1</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>2</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-            <figure class="image wrapper mx-0 my-5">
+            <p>3. Determine a medida das seguintes cordas que se cruzam no ponto P.</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <p>O que você observa em relação aos gráficos dessas funções?</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>x</p>
-                  </th>
-                  <th>
-                    <p>y = x²</p>
-                  </th>
-                  <th>
-                    <p>y = x² + 1</p>
-                  </th>
-                  <th>
-                    <p>y = x² + 2</p>
-                  </th>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>-2</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>-1</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>0</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>1</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th class="is-selected">
-                    <p>2</p>
-                  </th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-            <figure class="image wrapper mx-0 my-5">
+            <p>a) $${AB}↖{-}$$</p>
+            <p>b) $${CD}↖{-}$$</p>
+            <p>c) $${EF}↖{-}$$</p>
+            <p>4. Calcule a medida do raio da circunferência representada a seguir com base nas medidas indicadas na figura, em metros.</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <p>O que você observa em relação aos gráficos dessas funções?</p>
-            <p>6. Durante uma partida de futebol, um jogador chuta a bola, que passa a percorrer uma trajetória parabólica. O gráfico ao lado representa a altura <strong>h</strong> da bola em relação ao solo, em metros, em função do tempo
-              <strong>t</strong>, em segundos.
-            </p>
-            <figure class="image wrapper mx-0 my-5">
-              <img src="./img/MATXXX.jpg" data-aos="fade-up">
-            </figure>
-            <p>a) Analisando o gráfico, determine a altura máxima atingida pela bola. Essa altura representa que ponto notável da parábola?</p>
-            <p>b) Em qual instante a bola atingiu a altura máxima?</p>
-            <p>c) Quanto tempo levou para a bola retornar ao chão depois do chute?</p>
-            <p>d) Qual das funções a seguir representa a situação descrita?</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr>
-                  <td>
-                    <p>h = 2t² + 8t</p>
-                  </td>
-                  <td>
-                    <p>h = -2t² + 8t</p>
-                  </td>
-                  <td>
-                    <p>h = -2t² + 4t</p>
-                  </td>
-                  <td>
-                    <p>h = -8t² + 4t</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>e) Determine a altura da bola no instante 2,5 s.</p>
             <h3>Organize as ideias</h3>
-            <p>Neste capítulo, retomamos a ideia de função e ampliamos esse conhecimento com o estudo das funções afim e quadrática, também denominadas de funções polinomiais do 1.º e do 2.º grau. Nas frases apresentadas nos quadros a seguir, estão
-              presentes algumas ideias importantes relacionadas com os gráficos dessas funções. Complete-as corretamente escolhendo uma das opções entre parênteses.</p>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p><strong>Função afim (y = ax + b)</strong></p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
-                <p>A função é _______________ (<strong>crescente</strong>, <strong>decrescente</strong>), pois, _______________ (<strong>aumentando</strong>, <strong>diminuindo</strong>) o valor de <strong>x</strong>, o valor de <strong>y</strong>
-                  _______________ (<strong>aumenta</strong>, diminui). Nesse caso, a função apresenta _______________ (<strong>a > 0, a < 0</strong>).</p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
-                <p>A função é _______________ (<strong>crescente, decrescente</strong>), pois, _______________ (<strong>aumentando, diminuindo</strong>) o valor de <strong>x</strong>, o valor de <strong>y</strong> _______________ (<strong>aumenta,
-                    diminui</strong>). Nesse caso, a função apresenta _______________ (<strong>a > 0, a < 0</strong>).</p>
-              </div>
-            </div>
-            <div class="card color--primary--bg color--primary--contrast my-5 py-5 px-5">
-              <div class="card-body has-text-centered">
-                <p><strong>Função quadrática (y = ax² + bx + c)</strong></p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
-                <p>A função _______________ (<strong>não tem, tem um único, tem dois</strong>) zero(s) real(is), pois a parábola _______________ (<strong>intersecta, não intersecta</strong>) o eixo <strong>x</strong>. A parábola tem concavidade
-                  voltada para _______________ (<strong>cima, baixo</strong>), logo, _______________ (<strong>a > 0, a < 0</strong>).</p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
-                <p>A função _______________ (<strong>não tem, tem um único, tem dois</strong>) zero(s) real(is). A parábola tem concavidade voltada para _______________ (<strong>cima, baixo</strong>), logo, _______________ (<strong>a > 0, a <
-                      0</strong>).</p>
-                <figure class="image wrapper mx-0 my-5">
-                  <img src="./img/MATXXX.jpg" data-aos="fade-up">
-                </figure>
-                <p>A função _______________ (<strong>não tem, tem um único, tem dois</strong>) zero(s) real(is) e diferente(s), pois a parábola _______________ (<strong>intersecta, não intersecta</strong>) o eixo <strong>x</strong> em dois pontos
-                  _______________ (<strong>distintos, iguais</strong>).</p>
-              </div>
-            </div>
+            <p>Neste capítulo, estudamos alguns temas relacionados à circunferência: ângulos centrais e inscritos, posições relativas entre retas e circunferências e relações métricas.</p>
+            <p>Complete a tabela a seguir com as ideias estudadas de cada caso.</p>
+            <table class="table table-bordered table-responsive-sm has-text-centered">
+              <tbody>
+                <tr class="is-selected">
+                  <th>
+                    <p>Tópico estudado</p>
+                  </th>
+                  <th>
+                    <p>Conceito (o que significa?)</p>
+                  </th>
+                  <th>
+                    <p>Representação em forma de figura (exemplo)</p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>Reta secante à circunferência</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Reta tangente à circunferência</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Reta externa à circunferência</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Ângulo central</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Ângulo inscrito</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Relação entre um ângulo central e um ângulo inscrito correspondente</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Relação entre uma reta tangente a uma circunferência e o raio desta no ponto de tangência</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
             <h3>Hora de estudo</h3>
-            <p>1. (UEG – GO) No centro de uma cidade, há três estacionamentos que cobram da seguinte maneira:</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th colspan="3">
-                    <p>Estacionamento</p>
-                  </th>
-                </tr>
-                <tr class="is-selected">
-                  <th>
-                    <p>A</p>
-                  </th>
-                  <th>
-                    <p>B</p>
-                  </th>
-                  <th>
-                    <p>C</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>
-                    <p>R$ 5,00 pela primeira hora</p>
-                    <p>R$ 3,00 por cada hora subsequente</p>
-                  </td>
-                  <td>
-                    <p>R$ 4,00 por hora</p>
-                  </td>
-                  <td>
-                    <p>R$ 6,00 pela primeira hora</p>
-                    <p>R$ 2,00 por cada hora subsequente</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>Será mais vantajoso, financeiramente, parar:</p>
-            <p>a) no estacionamento A, desde que o automóvel fique estacionado por quatro horas.</p>
-            <p>b) no estacionamento B, desde que o automóvel fique estacionado por três horas.</p>
-            <p>c) em qualquer um, desde que o automóvel fique estacionado por uma hora.</p>
-            <p>d) em qualquer um, desde que o automóvel fique estacionado por duas horas.</p>
-            <p>e) no estacionamento C, desde que o automóvel fique estacionado por uma hora.</p>
-            <p>2. (ENEM) Os consumidores X, Y e Z desejam trocar seus planos de internet móvel na tentativa de obterem um serviço de melhor qualidade. Após pesquisarem, escolheram uma operadora que oferece cinco planos para diferentes perfis,
-              conforme apresentado no quadro.</p>
-            <table class="table table-bordered table-responsive-sm has-text-centered">
-              <tbody>
-                <tr class="is-selected">
-                  <th>
-                    <p>Plano</p>
-                  </th>
-                  <th>
-                    <p>Franquia</p>
-                  </th>
-                  <th>
-                    <p>Preço mensal de assinatura</p>
-                  </th>
-                  <th>
-                    <p>Preço por MB excedente</p>
-                  </th>
-                </tr>
-                <tr>
-                  <td>
-                    <p>A</p>
-                  </td>
-                  <td>
-                    <p>150 MB</p>
-                  </td>
-                  <td>
-                    <p>R$ 29,90</p>
-                  </td>
-                  <td>
-                    <p>R$ 0,40</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>B</p>
-                  </td>
-                  <td>
-                    <p>250 MB</p>
-                  </td>
-                  <td>
-                    <p>R$ 34,90</p>
-                  </td>
-                  <td>
-                    <p>R$ 0,10</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>C</p>
-                  </td>
-                  <td>
-                    <p>500 MB</p>
-                  </td>
-                  <td>
-                    <p>R$ 59,90</p>
-                  </td>
-                  <td>
-                    <p>R$ 0,10</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>D</p>
-                  </td>
-                  <td>
-                    <p>2 GB</p>
-                  </td>
-                  <td>
-                    <p>R$ 89,90</p>
-                  </td>
-                  <td>
-                    <p>R$ 0,10</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>E</p>
-                  </td>
-                  <td>
-                    <p>5 GB</p>
-                  </td>
-                  <td>
-                    <p>R$ 119,90</p>
-                  </td>
-                  <td>
-                    <p>R$ 0,10</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>Dado: 1 GB = 1 024 MB.</p>
-            <p>Em cada plano, o consumidor paga um valor fixo (preço mensal da assinatura) pela franquia contratada e um valor variável, que depende da quantidade de MB utilizada além da franquia. Considere que a velocidade máxima de acesso seja a
-              mesma, independentemente do plano, que os consumos mensais de X, Y e Z são de 190 MB, 450 MB e 890 MB, respectivamente, e que cada um deles escolherá apenas um plano. Com base nos dados do quadro, as escolhas dos planos com menores
-              custos para os consumidores X, Y e Z, respectivamente, são:</p>
-            <p>a) A, C e C.</p>
-            <p>b) A, B e D.</p>
-            <p>c) B, B e D.</p>
-            <p>d) B, C e C.</p>
-            <p>e) B, C e D.</p>
-            <p>3. (UNISINOS – RS) João e Pedro alugaram o mesmo modelo de carro, por um dia, em duas locadoras distintas. João alugou o carro na locadora Arquimedes, que cobra R$ 80,00 a diária, mais R$ 0,70 por quilômetro percorrido. Pedro alugou na
-              Locadora Bháskara, que cobra R$ 50,00 a diária, mais R$ 0,90 por quilômetro percorrido. Ao final do dia, João e Pedro pagaram o mesmo valor total pela locação. Quantos quilômetros cada um percorreu e quanto pagaram?</p>
-            <p>a) 150 km e R$ 185,00</p>
-            <p>b) 160 km e R$ 192,00</p>
-            <p>c) 170 km e R$ 199,00</p>
-            <p>d) 180 km e R$ 206,00</p>
-            <p>e) 190 km e R$ 213,00</p>
-            <p>4. (UEL – PR) <i>ViajeBem</i> é uma empresa de aluguel de veículos de passeio que cobra uma tarifa diária de R$ 160,00 mais R$ 1,50 por quilômetro percorrido, em carros de categoria A. <i>AluCar</i> é uma outra empresa que cobra uma
-              tarifa diária de R$ 146,00 mais R$ 2,00 por quilômetro percorrido, para a mesma categoria de carros.</p>
-            <p>a) Represente graficamente, em um mesmo plano cartesiano, as funções que determinam as tarifas diárias cobradas pelas duas empresas de carros da categoria A que percorrem, no máximo, 70 quilômetros.</p>
-            <p>b) Determine a quantidade de quilômetros percorridos para a qual o valor cobrado é o mesmo. Justifique sua resposta apresentando os cálculos realizados.</p>
-            <p>5. Um caminhão do corpo de bombeiros com capacidade para 5 000 L de água está completamente cheio. Sabendo que para expelir a água foi utilizada uma bomba com capacidade de retirar 125 litros por segundo, faça o que se pede.</p>
-            <figure class="image wrapper mx-0 my-5">
+            <p>1. Considere a representação a seguir de duas retas perpendiculares entre si e secantes a uma circunferência de centro no ponto O.</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <p>a) Encontre uma função que relacione a quantidade de água <strong>y</strong> no caminhão, em litros, em função do tempo <strong>t</strong> de funcionamento da bomba, em segundos. Em seguida, construa o gráfico.</p>
-            <p>b) Escreva a quantidade de água que resta no caminhão após 5 s de funcionamento da bomba.</p>
-            <p>c) Determine, em segundos, o tempo de funcionamento da bomba para que o caminhão fique com 1 000 L de água.</p>
-            <p>d) Indique o tempo, em segundos, necessário para que o caminhão seja esvaziado.</p>
-            <p>6. (ENEM) Para evitar uma epidemia, a Secretaria de Saúde de uma cidade dedetizou todos os bairros, de modo a evitar a proliferação do mosquito da dengue. Sabe-se que o número f de infectados é dado pela função f(t) = –2t² + 120t (em
-              que t é expresso em dia e t = 0 é o dia anterior à primeira infecção) e que tal expressão é válida para os 60 primeiros dias da epidemia. A Secretaria de Saúde decidiu que uma segunda dedetização deveria ser feita no dia em que o número
-              de infectados chegasse à marca de 1 600 pessoas, e uma segunda dedetização precisou acontecer. A segunda dedetização começou no:</p>
-            <p>a) 19º. dia.</p>
-            <p>b) 20º. dia.</p>
-            <p>c) 29º. dia.</p>
-            <p>d) 30º. dia.</p>
-            <p>e) 60º. dia.</p>
-            <p>7. (SARESP) No início do século XVII, Galileu descobriu que a distância d em metros percorrida por um corpo que cai é aproximadamente 5 vezes o quadrado do tempo t em segundos que o corpo leva para atingir o solo. Qual das funções
-              representa essa descoberta?</p>
-            <p>a) d = 5 ∙ t</p>
-            <p>b) d = 5 ∙ t²</p>
-            <p>c) d = 5 ∙ d</p>
-            <p>d) d = 5 ∙ d²</p>
-            <p>8. Na queda livre de um corpo, o espaço <strong>s</strong>, em metros, percorrido é dado em função do tempo <strong>t</strong>, em segundos, pela função quadrática s(t) = 5t². Sabendo que um corpo é abandonado em queda livre de
-              determinada altura, calcule:</p>
-            <figure class="image wrapper mx-0 my-5">
+            <p>a) Mostre que o ∆ABO é isósceles.</p>
+            <p>b) Que elemento do ∆ABO é dado pelo segmento OM?</p>
+            <p>c) Sabendo que m($${AM}↖{-}$$) = 5 cm, determine a m($${BM}↖{-}$$).</p>
+            <p>2. No desenho a seguir, a reta <strong>s</strong> é perpendicular à corda BC. Sabendo que BD = 5x – 10 e DC = 18 – 2x, em cm, determine:</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <p>a) o espaço percorrido após 2 s de queda;</p>
-            <p>b) o tempo que o corpo leva para atingir o solo quando é abandonado de uma altura de 80 m do solo.</p>
-            <p>9. (ENEM) Um túnel deve ser lacrado com uma tampa de concreto. A seção transversal do túnel e a tampa de concreto têm contornos de um arco de parábola e mesmas dimensões. Para determinar o custo da obra, um engenheiro deve calcular a
-              área sob o arco parabólico em questão. Usando o eixo horizontal no nível do chão e o eixo de simetria da parábola como eixo vertical, obteve a seguinte equação para a parábola: y = 9 – x², sendo x e y medidos em metros. Sabe- -se que a
-              área sob uma parábola como esta é igual a $$2/3$$ da área do retângulo cujas dimensões são, respectivamente, iguais à base e à altura da entrada do túnel. Qual é a área da parte frontal da tampa de concreto, em metros quadrados?</p>
-            <p>a) 18</p>
-            <p>b) 20</p>
-            <p>c) 36</p>
-            <p>d) 45</p>
-            <p>e) 54</p>
-            <p>10. No plano cartesiano a seguir, estão representados um triângulo ABC e o gráfico da função f(x) = x² + 4, com x ∈ $$\ℤ$$. Sabe-se que:</p>
-            <figure class="image wrapper mx-0 my-5">
+            <p>a) o valor de <strong>x</strong>;</p>
+            <p>b) a medida da corda BC.</p>
+            <p>3. Considere a figura a seguir, em que M, N e T são pontos de tangência da circunferência com os lados do triângulo PQR.</p>
+            <figure class="image wrapper mx-0">
               <img src="./img/MATXXX.jpg" data-aos="fade-up">
             </figure>
-            <ul>
-              <li>o ponto O é a origem do sistema de coordenadas;</li>
-              <li>os pontos A e C pertencem ao gráfico da função e C tem abscissa igual a 2;</li>
-              <li>o ponto B pertence ao eixo das ordenadas;</li>
-              <li>o triângulo ABC é retângulo em B.</li>
-            </ul>
-            <p>Determine a área e o perímetro do triângulo ABC.</p>
+            <p>Determine a medida de <strong>x</strong>, sabendo que PQ = 12 cm, QR = 8 cm e PR = 6 cm.</p>
+            <p>4. A reta que passa por A e B na figura a seguir é tangente à circunferência de centro em O, origem do plano cartesiano ortogonal, e raio com 1 cm de medida.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) Encontre a medida dos ângulos internos do ∆OAB.</p>
+            <p>b) Encontre a medida dos lados do ∆OAB.</p>
+            <p>5. Determine as medidas dos ângulos <strong>s</strong>, <strong>b</strong> e <strong>c</strong> na figura a seguir.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>6. Determine a medida em graus do arco $${MN}↖{⌒}$$ indicado na circunferência a seguir, de centro P.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>7. (CEFET – MG) Na figura, os segmentos PB e PD são secantes à circunferência, as cordas AD e BC são perpendiculares e AP = AD. A medida x do ângulo BPD é:</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
+            <p>a) 30°</p>
+            <p>b) 40°</p>
+            <p>c) 50°</p>
+            <p>d) 60°</p>
+            <p>8. Na figura a seguir, o segmento $${FB}↖{⌒}$$ é tangente à circunferência no ponto B. Determine a medida do segmento FD, sabendo que o raio da circunferência é 3 cm e que FB = 4 cm.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MATXXX.jpg" data-aos="fade-up">
+            </figure>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
 
-  <footer class="footer has-text-centered">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-8-desktop is-offset-2-desktop">
+    <footer class="footer has-text-centered">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
 
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script type="text/javascript" src="lib/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
